@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ WEBAPP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>QUIZ ON WEB DEVELOPMENT</h1>
+
+        <!-- Quiz Section -->
+        <div class="quiz" id="quiz-section">
+            <h2 id="question">Questions go here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+
+        <!-- Login Section -->
+        <div class="login" id="login-section">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="login-username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="login-password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="signup-link">Sign Up</a></p>
+        </div>
+
+        <!-- Signup Section -->
+        <div class="signup" id="signup-section">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="new-username">Username:</label>
+                <input type="text" id="new-username" name="new-username" required>
+                <label for="new-password">Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
